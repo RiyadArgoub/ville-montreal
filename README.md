@@ -1,4 +1,4 @@
-+# ville-montreal
+# ville-montreal
 An applet demonstration for adding and removing employees from a database.
 
 This is a demonstration of an applet created for la Ville de Montréal (City of Montréal). This was supposed to be used for the online Dispatch for city employees.
