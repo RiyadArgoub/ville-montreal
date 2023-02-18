@@ -1,3 +1,9 @@
++# ville-montreal
+An applet demonstration for adding and removing employees from a database.
+
+This is a demonstration of an applet created for la Ville de Montréal (City of Montréal). This was supposed to be used for the online Dispatch for city employees.
+The debug mode is activated to showcase the effects of the changes. This was used as a demonstration. The final product uses a PHP form to store the data in a SQL database.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
