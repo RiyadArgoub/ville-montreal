@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ville-montreal/static/css/main.2ad3eb4e.css",
+    "main.js": "/ville-montreal/static/js/main.51bd3f94.js",
+    "static/js/787.92bd0cd9.chunk.js": "/ville-montreal/static/js/787.92bd0cd9.chunk.js",
+    "index.html": "/ville-montreal/index.html",
+    "main.2ad3eb4e.css.map": "/ville-montreal/static/css/main.2ad3eb4e.css.map",
+    "main.51bd3f94.js.map": "/ville-montreal/static/js/main.51bd3f94.js.map",
+    "787.92bd0cd9.chunk.js.map": "/ville-montreal/static/js/787.92bd0cd9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ad3eb4e.css",
+    "static/js/main.51bd3f94.js"
+  ]
+}
