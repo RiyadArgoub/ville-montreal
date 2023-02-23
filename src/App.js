@@ -4,11 +4,11 @@ import {useState} from "react";
 
 function App() {
 
-let employeeA = [[1,"François Viel","Chauffeur Opérateur A",12],[2,"Martin Avoine","Chauffeur Opérateur A",12],[3,"Alexandre Nadeau Drolet","Chauffeur Opérateur A",12],[4,"Stéphane Denis","Chauffeur Opérateur A",12],[5,"Stéphane Lavaute","Chauffeur Opérateur A",12]];
+let employeeA = [[1,"Rudo Laraine","Chauffeur Opérateur A",12],[2,"Ronda Gillian","Chauffeur Opérateur A",12],[3,"Boone Clark","Chauffeur Opérateur A",12],[4,"Deirdre Bongani","Chauffeur Opérateur A",12],[5,"Dorothy Gabriel","Chauffeur Opérateur A",12]];
 
-let employeeB = [[1,"Patrick Rondeau","Chauffeur Opérateur B",10],[2,"Ahmed Argoub","Chauffeur Opérateur B",10],[3,"Aniel Estimable","Chauffeur Opérateur B",10],[4,"Manon Germain","Chauffeur Opérateur B",10], [5,"Sandy Fulton Gaspard","Chauffeur Opérateur B",10],[6,"Marc Trussart","Chauffeur Opérateur B",10],[7,"Jean Robert Elie","Chauffeur Opérateur B",10],[8,"Jean Wildonat","Chauffeur Opérateur B",10], [9,"Chakib Nasrallah","Chauffeur Opérateur B",10],[10,"Khalid Mahmoud","Chauffeur Opérateur B",10]];
+let employeeB = [[1,"Jacquelyn Chioma","Chauffeur Opérateur B",10],[2,"Fredric Spring","Chauffeur Opérateur B",10],[3,"Wapasha Boipelo","Chauffeur Opérateur B",10],[4,"Stafford Fatoumata","Chauffeur Opérateur B",10], [5,"Lindiwe Jefferson","Chauffeur Opérateur B",10],[6,"Alvis Terrence","Chauffeur Opérateur B",10],[7,"Buck Issac","Chauffeur Opérateur B",10],[8,"Lila Quetzalli","Chauffeur Opérateur B",10], [9,"Adeline James","Chauffeur Opérateur B",10],[10,"Adisa Hodan","Chauffeur Opérateur B",10]];
 
-let employeeC = [[1,"Alix Jean Batiste","Chauffeur C",7],[2,"David Thomas Georges","Chauffeur C",7],[3,"Benoit Jean Charlin","Chauffeur C",7]];
+let employeeC = [[1,"Anna Haydn","Chauffeur Opérateur C",7],[2,"Page Damian","Chauffeur Opérateur C",7],[3,"Abram Sibusiso","Chauffeur Opérateur C",7]];
 
 
 let employeeList=[employeeA,employeeB,employeeC];
@@ -102,7 +102,7 @@ const verifyAdd = () => {
       setListB(()=>employeeB2)
     }
     if(position=="C") {
-      employeeC2+=[employeeC2.length+1,fullNameAdd,"Chauffeur C",7];
+      employeeC2+=[employeeC2.length+1,fullNameAdd,"Chauffeur Opérateur C",7];
       setListC(()=>employeeC2)
     }
     alert("L'utilisateur "+fullNameAdd+" a été ajouté à la liste de Dispatch")
@@ -135,7 +135,7 @@ const check = () => {
         <option value="0">Sélectionnez une valeur</option>
         <option value="A">Chauffeur Opérateur A</option>
         <option value="B">Chauffeur Opérateur B</option>
-        <option value="C">Chauffeur C</option>
+        <option value="C">Chauffeur Opérateur C</option>
       </select>
       <br/><br/><button onClick={()=>verifyAdd()}>Ajouter</button>
     </div>
